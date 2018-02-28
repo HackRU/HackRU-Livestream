@@ -1,137 +1,26 @@
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="design.css">
 	<title> hackru.org/stream </title> 
-	<style>
-	
-		@font-face {
-				font-family: "Circular Std Bold";
-				src: url(../fonts/CircularStd-Bold.otf);
-					}
-		a.link1{
-			text-decoration:none;
-			font-size:20px;
-			padding-right:10px;
-			position:absolute;
-			margin-top:-125px;
-			margin-left:-600px;
-			}
-		a.link1:link{color:white;}
-		a.link1:visited{color:white;}	
-		a.link1:hover{color:turquoise;}
-
-		a.link2{
-			text-decoration:none;
-			font-size:20px;
-			padding-right:10px;
-			position:absolute;
-			margin-top:-125px;
-			margin-left:-425px;
-			}
-		a.link2:link{color:white;}
-		a.link2:visited{color:white;}	
-		a.link2:hover{color:turquoise;}
-
-		
-		a.link3{
-			text-decoration:none;
-			font-size:20px;
-			padding-right:10px;
-			position:absolute;
-			margin-top:-125px;
-			margin-left:-240px;
-			}
-		a.link3:link{color:white;}
-		a.link3:visited{color:white;}	
-		a.link3:hover{color:turquoise;}
-
-		a.link4{
-			text-decoration:none;
-			font-size:20px;
-			padding-right:10px;
-			position:absolute;
-			margin-top:-125px;
-			margin-left:-100px;
-			}
-		a.link4:link{color:white;}
-		a.link4:visited{color:white;}	
-		a.link4:hover{color:turquoise;}
-
-		a.link5{
-			text-decoration:none;
-			font-size:20px;
-			padding-right:10px;
-			position:absolute;
-			margin-top:-125px;
-			margin-left:75px;
-			}
-		a.link5:link{color:white;}
-		a.link5:visited{color:white;}	
-		a.link5:hover{color:turquoise;}
-		
-		#chat{
-			float: right;
-			margin-top: -510px;
-		}
-		
-		#twitch-embed{
-			margin-top:50px;
-			margin-left:250px;
-		}
-		
-		#header{
-			padding:0px;
-			margin:0px;
-			
-		}
-		
-		body{
-			margin:0px;
-		}
-		
-		img{
-			display:block;
-			float: left;
-		}
-		
-		marquee{
-			background: linear-gradient(red, purple);
-			height:70px;
-			width:1250px;
-			font-size:50px;
-			margin-top: 100px;
-			font-family:Impact;
-			
-		}
-		
-	</style>
 </head>
 <body bgcolor="#161616";>
+<!-- Side navigation -->
+<div class="sidenav">
+  <img src ="hackrulogo.png">
+  <a href="http://www.hackru.org/	">Dashboard</a>
+  <a href="http://www.hackru.org/sponsorship">Sponsors</a>
+  <a href="https://www.twitch.tv/hack_ru">Twitch</a>
+  <a href="#">About</a>
+</div>
 	<div id="header">
-	<marquee>This text will scroll from right to left</marquee>
-	
-		<img src="hackru2.jpg"  height="200"; margin="0"</img>
-		
-		<center><a class="link1" href="http://www.hackru.org/">
-							Homepage</a>
-		</center>
-
-		<center><a class="link2" href="http://www.hackru.org/sponsorship">
-							Sponsorship</a>
-		</center>
-
-		<center><a class="link3" href="https://www.twitch.tv/hack_ru">
-							Twitch</a>
-		</center>
-
-		<center><a class="link4" href="Calendar.html">
-							Schedule</a>
-		</center>
-
-		<center><a class="link5" href="Twitch Shop.html">
-							Shop</a>
-		</center>
+	<marquee scrollamount = "15">
+	Opening Ceremony 11am-12pm (main stage) | 
+	Lunch 1pm-2pm |
+	Slideshow Karaoke 3pm (top level) |
+	</marquee>
 		
 	</div>
+
 	
 	<div id="twitch-embed"></div>
 
@@ -162,7 +51,7 @@
 			scrolling = "no"
 			id = "monstercat"
 			src = "http://www.twitch.tv/hack_ru/chat"
-			height = "600";
+			height = "670";
 			width = "350";
 			>
 		</iframe>
