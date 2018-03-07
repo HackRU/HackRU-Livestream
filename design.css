@@ -67,7 +67,7 @@
 		}
 		
 		marquee{
-			background: linear-gradient(red, purple);
+			background: linear-gradient(#23a9e1, #1f4ab5);
 			height:100px;
 			width:1325px;
 			font-size:75px;
@@ -75,5 +75,4 @@
 			font-family:Impact;
 			
 		}
-		
-	</style>
+</style>
